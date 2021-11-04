@@ -1,0 +1,18 @@
+﻿  Building.cpp
+  civilBuilding.cpp
+  Date.cpp
+  indusBuilding.cpp
+  Office.cpp
+  Plant.cpp
+  project.cpp
+  publicWork.cpp
+  Resident.cpp
+  Service.cpp
+  Sign.cpp
+  Structure.cpp
+  townHouse.cpp
+  Traffic.cpp
+  正在生成代码
+  All 316 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  建筑工程项目管理系统.vcxproj -> C:\Users\Romy\source\repos\建筑工程项目管理系统\Release\建筑工程项目管理系统.exe
