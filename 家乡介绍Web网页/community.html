@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="keywords" content="HTML,ASP,PHP,SQL">
+<title>论坛社区</title>
+<link href="Cnmt.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="initial()">
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header"> <a href="！index.html">
+    <button class="main">回到首页</button>
+    </a>
+    <p class="title"><b>昆明那些事</b>——论坛社区</p>
+  </header>
+  <p id="greet"></p>
+  <!-- Subtitle -->
+  <h2 class="subtitle">热门讨论</h2>
+  <a href="#toPost">
+  <button class="menu">发帖</button>
+  </a>
+  <button class="menu" onclick = "selectAll()">选择全部</button>
+  <button class="menu" onclick = "cancelAll()">全不选</button>
+  <button class="menu" onclick = "deleteSel()">删除</button>
+  <div class="posts">
+    <table>
+      <thead>
+        <tr>
+          <th width="3%"></th>
+          <th width="12%">发布时间</th>
+          <th width="15%">发布者</th>
+          <th>内容</th>
+        </tr>
+      </thead>
+      <tfoot>
+      </tfoot>
+      <tbody id="tcnt"></tbody>
+    </table>
+  </div>
+  <p class="last">没有更多内容啦！</p>
+  <h2 class="subtitle" id="toPost">我要发贴</h2>
+  <form>
+    <textarea id="ipt_post" rows="10" placeholder="点此输入..."></textarea>
+    <button class="decdp" onclick = "post()">发布</button>
+    <button type="reset" class="decdc">清空</button>
+  </form>
+  <script type="text/javascript" src="cnmt.js">
+	</script>
+  <footer>
+    <h3 class="endword">—TBC—</h3>
+  </footer>
+</div>
+</body>
+</html>
